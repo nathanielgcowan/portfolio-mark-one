@@ -8,12 +8,7 @@ import avatar from "../public/avatar.png";
 import code from "../public/code.png";
 import design from "../public/design.png";
 import consulting from "../public/consulting.png";
-import web1 from "../public/web1.png";
-import web2 from "../public/web2.png";
-import web3 from "../public/web3.png";
-import web4 from "../public/web4.png";
-import web5 from "../public/web5.png";
-import web6 from "../public/web6.png";
+import web9 from "../public/web9.png";
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -69,7 +64,7 @@ export default function Home() {
               </a>
             </div>
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
-              <Image src={avatar} layout="fill" objectFit="cover" />
+              <Image src={avatar} alt="avatar" layout="fill" objectFit="cover" />
             </div>
           </div>
         </section>
@@ -83,7 +78,6 @@ export default function Home() {
           </div>
           <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
-              <Image src={design} width={100} height={100} />
               <h3 className="text-lg font-medium pt-8 pb-2  ">
                 Beautiful Designs
               </h3>
@@ -98,7 +92,6 @@ export default function Home() {
               <p className="text-gray-800 py-1">Indesign</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-              <Image src={code} width={100} height={100} />
               <h3 className="text-lg font-medium pt-8 pb-2 ">
                 Code your dream project
               </h3>
@@ -113,7 +106,6 @@ export default function Home() {
               <p className="text-gray-800 py-1">Indesign</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-              <Image src={consulting} width={100} height={100} />
               <h3 className="text-lg font-medium pt-8 pb-2 ">Consulting</h3>
               <p className="py-2">
                 Are you interested in feedback for your current project? I can
@@ -137,55 +129,61 @@ export default function Home() {
             <div className="basis-1/3 flex-1 ">
               <Image
                 className="rounded-lg object-cover"
+                alt="object-cover"
                 width={"100%"}
                 height={"100%"}
                 layout="responsive"
-                src={web1}
+                src={web9}
               />
             </div>
             <div className="basis-1/3 flex-1">
               <Image
                 className="rounded-lg object-cover"
+                alt="object-cover"
                 width={"100%"}
                 height={"100%"}
                 layout="responsive"
-                src={web2}
+                src={web9}
               />
             </div>
             <div className="basis-1/3 flex-1">
               <Image
                 className="rounded-lg object-cover"
+                alt="cover"
                 width={"100%"}
                 height={"100%"}
                 layout="responsive"
-                src={web3}
+                src={web9}
               />
             </div>
             <div className="basis-1/3 flex-1">
               <Image
                 className="rounded-lg object-cover"
+                alt="cover"
                 width={"100%"}
                 height={"100%"}
                 layout="responsive"
-                src={web4}
+                src={web9}
               />
             </div>
             <div className="basis-1/3 flex-1">
               <Image
                 className="rounded-lg object-cover"
+                alt="cover"
                 width={"100%"}
                 height={"100%"}
                 layout="responsive"
-                src={web5}
+                src={web9}
               />
             </div>
             <div className="basis-1/3 flex-1">
               <Image
                 className="rounded-lg object-cover"
+                alt="cover"
                 width={"100%"}
                 height={"100%"}
                 layout="responsive"
-                src={web6}
+                src={web9}
               />
             </div>
           </div>
