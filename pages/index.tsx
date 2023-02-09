@@ -49,9 +49,9 @@ export default function Home() {
             <h3 className="text-2xl py-2 dark:text-white md:text-3xl">
               Web Dev
             </h3>
-            {/* <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
-              Lets program
-            </p> */}
+            <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
+              Let&apos;s program
+            </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
               <a className="twitter" href="https://twitter.com/nathaniel_cm" >
                 <AiFillTwitterCircle />
@@ -95,10 +95,10 @@ export default function Home() {
               <h3 className="text-lg font-medium pt-8 pb-2 ">
                 Code your dream project
               </h3>
-              {/* <p className="py-2">
-                Do you have an idea for your next great website Lets make it a
+              <p className="py-2">
+                Do you have an idea for your next great website Let&apos;s make it a
                 reality
-              </p> */}
+              </p>
               <h4 className="py-4 text-teal-600">Design Tools I Use</h4>
               <p className="text-gray-800 py-1">Photoshop</p>
               <p className="text-gray-800 py-1">Illustrator</p>
