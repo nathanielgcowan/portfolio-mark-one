@@ -135,56 +135,6 @@ export default function Home() {
                 src={web9}
               />
             </div>
-            <div className="basis-1/3 flex-1">
-              <Image
-                className="rounded-lg object-cover"
-                alt="object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-                src={web9}
-              />
-            </div>
-            <div className="basis-1/3 flex-1">
-              <Image
-                className="rounded-lg object-cover"
-                alt="cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-                src={web9}
-              />
-            </div>
-            <div className="basis-1/3 flex-1">
-              <Image
-                className="rounded-lg object-cover"
-                alt="cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-                src={web9}
-              />
-            </div>
-            <div className="basis-1/3 flex-1">
-              <Image
-                className="rounded-lg object-cover"
-                alt="cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-                src={web9}
-              />
-            </div>
-            <div className="basis-1/3 flex-1">
-              <Image
-                className="rounded-lg object-cover"
-                alt="cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-                src={web9}
-              />
-            </div>
           </div>
         </section>
       </main>
