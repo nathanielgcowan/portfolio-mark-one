@@ -130,7 +130,7 @@ export default function Home() {
               <Image
                 className="rounded-lg object-cover"
                 alt="object-cover"
-                height="auto"
+                height="100%"
                 layout="responsive"
                 src={web9}
               />
